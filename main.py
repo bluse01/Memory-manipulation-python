@@ -19,3 +19,5 @@ if (Handle):
         # reads health of the player
         memory = read_int(Handle, health_value)
         print(f"Player Health value: {memory}")
+
+kernel32.CloseHandle(Handle)
