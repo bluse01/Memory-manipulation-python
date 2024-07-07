@@ -1,7 +1,6 @@
 import ctypes
 from ctypes import wintypes
 import ctypes.wintypes
-import ctypes.wintypes
 from const import *
 from func import *
 
